@@ -1,0 +1,19 @@
+.menu {
+    display: flex;
+    padding: 0%;
+    background-color: #ccc;
+}
+
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+}
+
+.menu a { 
+    display:block;
+    min-width: 120px;
+}
+
+.menu {
+    justify-content: center;
+    
+}
