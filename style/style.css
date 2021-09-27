@@ -1,19 +1,70 @@
-.menu {
-    display: flex;
-    padding: 0%;
-    background-color: #ccc;
+body{
+    margin:0 auto;
 }
 
-.menu li {
-    list-style-type: none ;       /* Suppression des puces */
+header{
+    margin-top:1%;
+    margin-left:2%;
 }
 
-.menu a { 
-    display:block;
-    min-width: 120px;
-}
+* {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+} 
 
-.menu {
-    justify-content: center;
+h1 p{
+    font-family: 'Raleway' sans-serif
     
+
 }
+
+ul{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Propriétés CSS */
+
+nav div{
+    display: inline-block;
+}
+
+.container-img{
+    padding-top: 20px;
+}
+.menu{
+    float:right;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 20px;
+    /*       TOP  RIGHT BOTTOM LEFT                */
+    padding: 20px 5px 0 5px;
+}
+
+.active{
+    border-top: 1px solid #0065FC;
+}
+
+td span {
+    margin-right: 10px; 
+}
+
+button {
+    display: inline-block;
+    width: 80px;
+    border-radius: 5px;
+    padding: 6px;
+    background-color: rgb(46, 150, 219)
