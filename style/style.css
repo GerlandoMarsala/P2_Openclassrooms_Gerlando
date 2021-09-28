@@ -15,7 +15,6 @@ header{
 h1 p{
     font-family: 'Raleway' sans-serif
     
-
 }
 
 ul{
@@ -23,8 +22,6 @@ ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    display: inline-block;
-
 }
 
 
@@ -62,9 +59,24 @@ td span {
     margin-right: 10px; 
 }
 
+ul li{
+    list-style-type: none;
+}
+
+
+
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px 5px 0 5px;
+}
+
+
 button {
     display: inline-block;
-    width: 80px;
+    width: 100px;
     border-radius: 5px;
-    padding: 6px;
+    padding: 8px;
     background-color: rgb(46, 150, 219)
+
+}   
