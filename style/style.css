@@ -79,4 +79,8 @@ button {
     padding: 8px;
     background-color: rgb(46, 150, 219)
 
-}   
+} 
+body {
+    background-color: blue;
+
+}
