@@ -14,7 +14,6 @@ header{
 
 h1 p{
     font-family: 'Raleway' sans-serif
-    
 }
 
 ul{
@@ -23,7 +22,6 @@ ul{
     padding: 0;
     list-style-type: none;
 }
-
 
 a{
     text-decoration: none;
@@ -40,6 +38,7 @@ nav div{
 .container-img{
     padding-top: 20px;
 }
+
 .menu{
     float:right;
 }
@@ -61,27 +60,35 @@ td span {
 
 ul li{
     list-style-type: none;
-}
-
-
-
-ul li{
     display: inline-block;
     margin-right: 20px;
     padding: 20px 5px 0 5px;
 }
 
 
-button {
+button{
     display: inline-block;
     width: 100px;
     border-radius: 5px;
     padding: 8px;
     background-color: rgb(46, 150, 219)
-
 } 
 
-body {
-    background-color: red;
+.hebergements{
+    color: rgb(46, 150, 219);
+    font-weight: bold;
+}
 
+.activites{
+    color: grey;
+    font-weight: bold;
+}
+
+.sinscrire{
+    color: #0065FC;
+    font-weight: bold;
+}
+
+.filtres{
+    font-weight: bold;
 }
