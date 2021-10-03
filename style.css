@@ -1,0 +1,303 @@
+/* Propriétés générales*/
+html,body {
+    font-family: Raleway;
+}
+
+.flexCentre { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexColumnCentre { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexColumnAround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flexColumnBetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Supression de la ligne sous Hébergements, Activités, & S'inscrire.*/
+.decorationDelete {
+    text-decoration: none;
+}
+
+.bordureDelete {
+    border: none;
+}
+
+.texteGras {
+    font-weight: bold;
+}
+
+/* Couleur pour les textes*/
+.colorBleu {
+    color: #0065fc;
+}
+
+.colorBleuClair {
+    color: #deebff
+}
+
+.colorGris {
+    color: #f2f2f2;
+}
+
+/* Couleur pour les Background*/
+.backBleu {
+    background-color: #0065fc;
+}
+
+.backBleuClair {
+    background-color: #deebff
+}
+
+.backGris {
+    background-color: #f2f2f2;
+}
+
+/* NAVIGATION */
+.sizeNavigation {
+    height: 100px;
+}
+/* ecart entre les liens*/
+.sizeLiens {
+    width: 45%;
+}
+
+/* largeur des liens*/
+.sizeLien {
+    width: 140px;
+    height: 99px;
+}
+
+/* couleur du lien  2 */
+.colorLien2 {
+    color: black
+}
+
+/* La bordure au dessus de la barre de navigation */
+.bordureNav {
+    border-top: 1px solid blue
+}
+
+.bordureNavigation2et3 {
+    border-top: 1px solid transparent;
+}
+
+.margeduLogo {
+    margin-bottom: 7px;
+}
+
+/* Header */
+.bordureSearch {
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2
+}
+
+/* Espace du texte de l'input (espace sur la barre de recherche pour que "Marseille" ne soit pas contre le bord) */
+
+.paddingSearch {
+    padding-left: 20px;
+}
+
+.recherche {
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.iconSize {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+}
+
+/* taille du boutton rechercher */
+.buttonSearch {
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+/* Les Filtres */
+.margeFiltre {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.filtre {
+    display: flex;
+    align-items: center;
+}
+
+.margeFiltreduTitre {
+    margin-right: 20px;
+}
+
+.filtreduTexteIcons {
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.filtreduTexteIcons:hover > .filtreTexte {
+    color: #0065fc;
+}
+
+.filtreduTexteIcons:hover > .filtredesIcons {
+    color: white;
+    background-color: #0065fc;
+}
+
+.filtreTexte {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+
+}
+
+/* Cercle sur les icones du filtre de recherche */
+.filtredesIcons {
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+}
+
+/* ICONE INFO (i) */
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.IconbBaliseParent {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+/* La section Hébergements */
+.sizeHebergements {
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.sizePopulaires {
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.blocHebergements {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bloc1 {
+    margin-bottom: 10px;
+}
+
+.bloc2 {
+    margin-top: 10px;
+}
+
+.cubeHebergements {
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.cubeDetailsHebergements {
+    width: 90%;
+}
+
+.imagesHebergements1 {
+    background-image: url("./img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imagesHebergements2 {
+    background-image: url("./img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+    }
+
+.imagesHebergements3 {
+    background-image: url("./img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+    }
+
+.imagesHebergements4 {
+    background-image: url("./img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+    }
+
+.imagesHebergements5 {
+    background-image: url("./img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+    }
+
+.imagesHebergements6 {
+    background-image: url("./img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+    }
