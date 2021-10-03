@@ -301,3 +301,53 @@ html,body {
     height: 120px;
     border-radius: 15px 15px 0 0;
     }
+
+    /* Les plus Populaires */
+
+    .blocPopulaires {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .blocPopulaire1et2 {
+        margin-bottom: 22px;
+    }
+
+    .cubePopulaires {
+        background-color: white;
+        height: auto;
+        padding: 1% 0 1% 1%;
+        border-radius: 20px;
+    }
+
+    .cubeDetailsPopulaires {
+        width: 60%;
+        padding-left: 5%;
+    }
+
+    .ImagesPopulaires1 {
+        background-image: url("./img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 35%;
+        height: 160px;
+        border-radius: 15px 0 0 15px;
+        }
+
+    .ImagesPopulaires2 {
+        background-image: url("./img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 35%;
+        height: 160px;
+        border-radius: 15px 0 0 15px;
+        }
+            
+    .ImagesPopulaires3 {
+        background-image: url("./img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 35%;
+        height: 160px;
+        border-radius: 15px 0 0 15px;
+        }
