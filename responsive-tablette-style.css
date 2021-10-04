@@ -1,0 +1,53 @@
+@media screen and (max-width:1295px) {
+    .sizeLien1et2 {
+        margin-left: 35%;
+    } 
+    }
+    
+    .cubeDetailsHebergements {
+        min-height: 150px;
+    }
+    
+    .sizeHebergements {
+        min-height: auto;
+        padding: 20px;
+    }
+    
+    .sizePopulaires {
+        min-height: auto;
+        padding: 20px;
+    }
+    
+    .tabletteSizeTitre {
+        margin-top: 0;
+    }
+    
+    @media screen and (max-width:990px) {
+    .filtrepourMobile {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    }
+    .filtreTexteIcons {
+        margin-bottom: 20px;
+    }
+    
+    #hebergements {
+    flex-direction: column-reverse;
+    width: 100%;
+    }
+
+    .blocPopulaires {
+        flex: none;
+        width: 90%;
+        margin-left: 0;
+        padding: 5%
+    }
+
+    .blocHebergements {
+        flex: none;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 50px;
+        padding: 5%;
+    }
