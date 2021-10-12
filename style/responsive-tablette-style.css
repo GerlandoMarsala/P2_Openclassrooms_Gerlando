@@ -1,6 +1,6 @@
 @media screen and (max-width:1295px) {
     .sizeLien1et2 {
-        margin-left: 35%;
+        margin-left: 70%;
     } 
     
     
@@ -21,10 +21,11 @@
     .tabletteSizeTitre {
         margin-top: 0;
     } 
-   
+    
     }
     
     @media screen and (max-width:990px) {
+
     .filtrepourMobile {
         flex-direction: column;
         align-items: flex-start;
@@ -32,7 +33,7 @@
     
 
     .filtreTexteIcons {
-        margin-bottom: 20px;
+        margin-bottom: 2px;
     }
     
     #hebergements {

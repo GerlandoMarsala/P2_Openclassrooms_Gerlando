@@ -85,17 +85,27 @@ html,body {
 
 /* ecart entre les liens*/
 .sizeLiens {
-    width: 100%;
+    width: 70%;
 }
 
 .sizeLien1et2 {
-    margin-left: 60%
+    margin-left: 90%
+}
+
+.sizeLienSinscrire {
+    margin-left: 10%
+    
+    
 }
 
 /* largeur des liens*/
 .sizeLien {
     width: 140px;
     height: 99px;
+}
+
+.sizeLienInscrire {
+    padding: 30px;
 }
 
 /* couleur du lien  2 */
@@ -112,6 +122,7 @@ html,body {
     border-top: 1px solid #0065fc;
     cursor: pointer;
 }
+
 
 .bordureNavigation:hover > a {
     color: #0065fc;

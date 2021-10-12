@@ -28,6 +28,7 @@
     .cubeDetailsHebergements {
         min-height: auto;
     }
+
     .blocActivites {
         flex-direction: column;
         height: auto;
@@ -96,6 +97,10 @@
             font-size: x-large;
         }
 
+        .filtreTexteIcons {
+            margin-bottom: 20px;
+        }
+        
         .bordureSearch {
             width: auto;
             border: none;
@@ -158,6 +163,15 @@
 
         .mobileTitreParagraphes {
             padding-left: 5%;
+        }
+
+        .margeduLogo {
+            padding: 20px;
+            margin-bottom: 7px;
+        }
+
+        .margeActivites {
+            padding: 20px;
         }
 
         .blocActivites {
